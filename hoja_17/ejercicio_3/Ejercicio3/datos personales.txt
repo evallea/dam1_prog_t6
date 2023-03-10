@@ -1,0 +1,1 @@
+NOMBRE: Kike, EDAD: 32, ALTURA: 1.64

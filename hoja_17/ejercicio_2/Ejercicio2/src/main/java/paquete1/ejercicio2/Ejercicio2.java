@@ -24,7 +24,7 @@ public class Ejercicio2 {
                 fos.write(texto.charAt(i));
             }
             System.out.println("Texto escrito correctamente.");
-        } catch (FileNotFoundException f) {
+        } catch (FileNotFoundException fnfe) {
             System.out.println("Ruta no válida.");
         } catch (IOException e) {
             System.out.println("Ocurrió una IOException.");

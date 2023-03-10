@@ -13,17 +13,17 @@ public class Ejercicio1 {
             try {
 
                 InputStreamReader isr = new InputStreamReader(System.in);
-                BufferedReader br = new BufferedReader(isr);
+                BufferedReader bufferTeclado = new BufferedReader(isr);
 
                 System.out.println("\nIntroduce el nombre:");
-                String nombre = br.readLine();
+                String nombre = bufferTeclado.readLine();
 
                 System.out.println("Introduce la edad:");
-                String edad = br.readLine();
+                String edad = bufferTeclado.readLine();
                 // Integer.parseInt(edad);
 
                 System.out.println("Introduce la altura:");
-                String altura = br.readLine();
+                String altura = bufferTeclado.readLine();
                 // Double.parseDouble(altura);
 
                 System.out.println("\nLos datos dentro de 10 años son los siguientes:");
