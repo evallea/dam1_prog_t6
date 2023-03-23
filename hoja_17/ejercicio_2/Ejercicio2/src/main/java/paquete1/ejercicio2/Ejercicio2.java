@@ -6,7 +6,8 @@ public class Ejercicio2 {
 
     public static void main(String[] args) throws IOException {
 
-        BufferedReader bufferTeclado = new BufferedReader(new InputStreamReader(System.in));
+        InputStreamReader isr = new InputStreamReader(System.in);
+        BufferedReader bufferTeclado = new BufferedReader(isr);
 
         FileOutputStream fos = null;
 
