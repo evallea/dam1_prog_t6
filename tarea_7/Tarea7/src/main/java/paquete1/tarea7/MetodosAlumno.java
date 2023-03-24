@@ -84,6 +84,7 @@ public class MetodosAlumno {
         System.out.println("¡No se encontró el alumno!");
     }
 
+    // Este método borra alumnos:
     public static void borrar_alumno() {
         Scanner lectura = new Scanner(System.in);
         System.out.println("Introduce el nombre del alumno para borrarlo:");
