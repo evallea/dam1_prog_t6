@@ -1,0 +1,9 @@
+Realiza una calculadora con las herramientas gráficas de NetBeans. Debes incluir:
+
+Un cuadro de texto donde se mostrará la operación seleccionada por el usuario.
+Un botón "igual" que, al pulsarlo, cambie el contenido del cuadro y muestre el resultado de la operación (en caso de ser posible).
+Un botón para cada número entero del 0 al 9 (ambos incluidos).
+Cinco botones con las operaciones suma, resta, multiplicación, división y raíz cuadrada.
+Debes incluir al menos dos paneles (con marcos) para agrupar los elementos anteriores.
+Debes tratar al menos las excepciones relacionadas con dividir entre cero y calcular la raíz cuadrada de un número negativo.
+El usuario solo podrá seleccionar operaciones con números enteros, aunque el resultado podrá ser decimal en algunas operaciones.

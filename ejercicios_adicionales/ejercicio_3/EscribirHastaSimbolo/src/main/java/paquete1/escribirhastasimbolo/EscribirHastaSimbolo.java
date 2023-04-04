@@ -14,7 +14,7 @@ public class EscribirHastaSimbolo {
         String texto = "a";
 
         try {
-            fw = new FileWriter("prueba.txt");
+            fw = new FileWriter("mifichero1.txt");
             bw = new BufferedWriter(fw);
             do {
                 texto = teclado.readLine();
