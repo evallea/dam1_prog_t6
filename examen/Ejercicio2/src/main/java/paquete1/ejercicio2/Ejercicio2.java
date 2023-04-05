@@ -6,7 +6,6 @@ import java.io.*;
  *
  * @author damt124
  */
-
 public class Ejercicio2 {
 
     public static void main(String[] args) {
@@ -31,7 +30,7 @@ public class Ejercicio2 {
                     bw.write(texto); // Escritura.
                 }
                 if (texto.equalsIgnoreCase("/")) {
-                    bw.newLine(); // Salto de linea (no he conseguido borrarlo del programa...).
+                    bw.newLine(); // Salto de línea (no he conseguido borrarlo del programa...).
                 }
             } while (!texto.equals(";"));
         } catch (IOException e) {
